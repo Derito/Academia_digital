@@ -17,7 +17,7 @@ Ao rodar o projecto original o Spring roda, carrega não dá erro nem gera tabel
     <version>8.4.2</version>
 </dependency>
 ```
-5. Configuração no application.yml
+5. Configuração adicional no application.yml
 ```
  flyway:
     baselineOnMigrate: true
