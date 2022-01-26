@@ -1,5 +1,9 @@
 # Projecto Academia_digital da DIO 
-> Serve como base de estudo do Spring e da API Rest.
+> Caso queira consulte o Projecto original existente no **LINK** abaixo:
+- [GitHub da Camila Cavalcante](https://github.com/cami-la/academia-digital.git)
+- Serve como base de estudo do Spring e da API Rest.
+- Modificado para questões de estudo.
+> ***projecto Academia_digital***
 ## Inovações ao projecto
 > ***Projecto Academia_digital***
 Ao rodar o projecto original o Spring roda, carrega não dá erro nem gera tabelas.
