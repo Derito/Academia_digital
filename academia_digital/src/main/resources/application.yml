@@ -1,0 +1,17 @@
+#Configuração de conexão com a BD PostegreSQL
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/academia?createDatabaseIfNotExist=true&useTimeZone=true&serverTimezone=UTC&useLegacyDate
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  flyway:
+    baselineOnMigrate: true
+    check-location: true
+    locations:
+      classpath: db/migration
+    schemas: public
+    enabled: true
