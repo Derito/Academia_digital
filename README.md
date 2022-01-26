@@ -1,5 +1,5 @@
 # Projecto Academia_digital da DIO 
-> Serve como base de estudo do Sping e da API Rest.
+> Serve como base de estudo do Spring e da API Rest.
 ## Inovações ao projecto
 > ***Projecto Academia_digital***
 Ao rodar o projecto original o Spring roda, carrega não dá erro nem gera tabelas.
