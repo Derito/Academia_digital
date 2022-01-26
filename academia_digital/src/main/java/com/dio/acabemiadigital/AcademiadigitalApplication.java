@@ -1,4 +1,4 @@
-package com.dio.academiadigital;
+package com.dio.acabemiadigital;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
