@@ -1,6 +1,7 @@
 # Projecto Academia_digital da DIO 
 > Serve como base de estudo do Sping e da API Rest.
 ## Inovações ao projecto
+> ***Projecto Academia_digital***
 Ao rodar o projecto original o Spring roda, carrega não dá erro nem gera tabelas.
 > :point_right: Caso queira siga as orientações abaixo.
 ### :information_source: Para resolver:
@@ -26,4 +27,11 @@ Ao rodar o projecto original o Spring roda, carrega não dá erro nem gera tabel
       classpath: db/migration
     schemas: public
     enabled: true
+```
+> ***Projecto Academia_digital2***
+### :information_source: Para resolver:
+:warning: **Atenção:**
+- Para resolução do problema foi adicionado a anotação @ComponetScan na main
+```
+@ComponentScan(basePackages= {"com.dio.acabemiadigital_2"})
 ```
