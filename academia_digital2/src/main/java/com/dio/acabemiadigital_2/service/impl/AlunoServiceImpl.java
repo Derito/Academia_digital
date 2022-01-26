@@ -54,12 +54,12 @@ public class AlunoServiceImpl implements IAlunoService {
 
     @Override
     public void delete(Long id) {
+        alunoRepository.deleteById(id);
     }
 
     @Override
     public List<AvaliacaoEscrita> getAllAvaliacaoEscritaId(Long id) {
         Aluno aluno = alunoRepository.findById(id).get();
-
         return aluno.getAvaliacoes();
     }
 }

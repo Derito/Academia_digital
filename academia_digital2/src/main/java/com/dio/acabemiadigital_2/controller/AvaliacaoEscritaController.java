@@ -6,6 +6,7 @@ import com.dio.acabemiadigital_2.service.impl.AvaliacaoEscritaServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @RestController
@@ -16,12 +17,12 @@ public class AvaliacaoEscritaController {
     private AvaliacaoEscritaServiceImpl service;
 
     @PostMapping
-    public AvaliacaoEscrita create(@RequestBody AvaliacaoEscritaForm form) {
+    public AvaliacaoEscrita create(@Valid @RequestBody AvaliacaoEscritaForm form) {
         return service.create(form);
     }
 
     @GetMapping
-    public List<AvaliacaoEscrita> getAll() {
-        return service.getAll();
+    public List<AvaliacaoEscrita> findAll() {
+        return service.buscaTodas();
     }
 }

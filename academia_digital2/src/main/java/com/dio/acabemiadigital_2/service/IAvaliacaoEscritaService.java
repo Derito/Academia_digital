@@ -29,7 +29,9 @@ public interface IAvaliacaoEscritaService {
      *
      * @return - Uma lista com todas as Avaliações Física que estão salvas no DB.
      */
-    List<AvaliacaoEscrita> getAll();
+    List<AvaliacaoEscrita> buscaTodas();
+
+   // List<AvaliacaoEscrita> getAll();
 
     /**
      * Atualiza a avaliação física.

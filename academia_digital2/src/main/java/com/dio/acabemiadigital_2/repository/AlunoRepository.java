@@ -15,4 +15,7 @@ public interface AlunoRepository extends JpaRepository<Aluno, Long> {
      * @return lista com todos os alunos com a data de nascimento passada como parâmetro da função
      */
     List<Aluno> findByDataNascimento(LocalDate dataNascimento);
+
+    @Override
+    void deleteById(Long aLong);
 }
