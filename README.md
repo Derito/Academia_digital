@@ -7,8 +7,8 @@
 ## Inovações ao projecto
 > ***Projecto Academia_digital***
 Ao rodar o projecto original o Spring roda, carrega não dá erro nem gera tabelas.
-> :point_right: Caso queira siga as orientações abaixo.
-### :information_source: Para resolver:
+- :point_right: Caso queira siga as orientações abaixo.
+### :information_source: Primeira forma usada para resolver:
 :warning: **Atenção:**
 > Adição da automação na criação de tabelas no banco PostgreSQL usando ***flyway***.
 1. Inserção das pastas db/migration requeridas pelo flyway.
@@ -35,7 +35,7 @@ Ao rodar o projecto original o Spring roda, carrega não dá erro nem gera tabel
     enabled: true
 ```
 > ***Projecto Academia_digital2***
-### :information_source: Para resolver:
+### :information_source: Segunda forma usada para resolver:
 :warning: **Atenção:**
 - Para resolução do problema foi somente necessário adicionar a anotação @ComponetScan na main
 - **Note:** com.dio.acabemiadigital_2 - Refere-se ao pacote generico criado na aplicação.
