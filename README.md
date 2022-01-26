@@ -9,8 +9,10 @@ Ao rodar o projecto original o Spring roda, carrega não dá erro nem gera tabel
 > Adição da automação na criação de tabelas no banco PostgreSQL usando ***flyway***.
 1. Inserção das pastas db/migration requeridas pelo flyway.
 2. Adição do script das tabelas na pasta migration.
-3. Uso da Anotação @Builder nas entidades e,
-4. ### Dependência adicionada ao projecto original
+3. Uso da Anotação @Builder nas entidades,
+4. Só foi prossivel criar alunos no banco trocando o gerador sequencial de IDENTIFY para AUTO classe Aluno.
+5. ### Dependência adicionada ao projecto original
+
 ```
 <dependency>
     <groupId>org.flywaydb</groupId>
@@ -31,7 +33,8 @@ Ao rodar o projecto original o Spring roda, carrega não dá erro nem gera tabel
 > ***Projecto Academia_digital2***
 ### :information_source: Para resolver:
 :warning: **Atenção:**
-- Para resolução do problema foi adicionado a anotação @ComponetScan na main
+- Para resolução do problema foi somente necessário adicionar a anotação @ComponetScan na main
+- **Note:** com.dio.acabemiadigital_2 - Refere-se ao pacote generico criado na aplicação.
 ```
 @ComponentScan(basePackages= {"com.dio.acabemiadigital_2"})
 ```
